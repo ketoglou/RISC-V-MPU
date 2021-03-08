@@ -1,0 +1,225 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 248 320)
+	(text "PIP_REG_ID_EXE" (rect 5 0 88 12)(font "Arial" ))
+	(text "inst" (rect 8 288 20 300)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CSR_WB" (rect 0 0 43 12)(font "Arial" ))
+		(text "CSR_WB" (rect 21 27 64 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "WB" (rect 0 0 16 12)(font "Arial" ))
+		(text "WB" (rect 21 43 37 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "WR[2..0]" (rect 0 0 38 12)(font "Arial" ))
+		(text "WR[2..0]" (rect 21 59 59 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "BRANCH" (rect 0 0 43 12)(font "Arial" ))
+		(text "BRANCH" (rect 21 75 64 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "MEM_WR" (rect 0 0 48 12)(font "Arial" ))
+		(text "MEM_WR" (rect 21 91 69 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "EX1" (rect 0 0 16 12)(font "Arial" ))
+		(text "EX1" (rect 21 107 37 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "EN_IMM" (rect 0 0 38 12)(font "Arial" ))
+		(text "EN_IMM" (rect 21 123 59 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "C1" (rect 0 0 10 12)(font "Arial" ))
+		(text "C1" (rect 21 139 31 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "C2" (rect 0 0 11 12)(font "Arial" ))
+		(text "C2" (rect 21 155 32 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "NE1" (rect 0 0 17 12)(font "Arial" ))
+		(text "NE1" (rect 21 171 38 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "NE2" (rect 0 0 18 12)(font "Arial" ))
+		(text "NE2" (rect 21 187 39 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "ALU_OP[3..0]" (rect 0 0 60 12)(font "Arial" ))
+		(text "ALU_OP[3..0]" (rect 21 203 81 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "FUNCT3[2..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "FUNCT3[2..0]" (rect 21 219 78 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "CLK" (rect 0 0 20 12)(font "Arial" ))
+		(text "CLK" (rect 21 235 41 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 1))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "CLR" (rect 0 0 21 12)(font "Arial" ))
+		(text "CLR" (rect 21 251 42 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 1))
+	)
+	(port
+		(pt 232 32)
+		(output)
+		(text "CSR_WB_O" (rect 0 0 56 12)(font "Arial" ))
+		(text "CSR_WB_O" (rect 155 27 211 39)(font "Arial" ))
+		(line (pt 232 32)(pt 216 32)(line_width 1))
+	)
+	(port
+		(pt 232 48)
+		(output)
+		(text "WB_O" (rect 0 0 29 12)(font "Arial" ))
+		(text "WB_O" (rect 182 43 211 55)(font "Arial" ))
+		(line (pt 232 48)(pt 216 48)(line_width 1))
+	)
+	(port
+		(pt 232 64)
+		(output)
+		(text "WR_O[2..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "WR_O[2..0]" (rect 160 59 211 71)(font "Arial" ))
+		(line (pt 232 64)(pt 216 64)(line_width 3))
+	)
+	(port
+		(pt 232 80)
+		(output)
+		(text "BRANCH_O" (rect 0 0 56 12)(font "Arial" ))
+		(text "BRANCH_O" (rect 155 75 211 87)(font "Arial" ))
+		(line (pt 232 80)(pt 216 80)(line_width 1))
+	)
+	(port
+		(pt 232 96)
+		(output)
+		(text "MEM_WR_O" (rect 0 0 61 12)(font "Arial" ))
+		(text "MEM_WR_O" (rect 150 91 211 103)(font "Arial" ))
+		(line (pt 232 96)(pt 216 96)(line_width 1))
+	)
+	(port
+		(pt 232 112)
+		(output)
+		(text "FUNCT3_O[2..0]" (rect 0 0 70 12)(font "Arial" ))
+		(text "FUNCT3_O[2..0]" (rect 141 107 211 119)(font "Arial" ))
+		(line (pt 232 112)(pt 216 112)(line_width 3))
+	)
+	(port
+		(pt 232 128)
+		(output)
+		(text "EX1_O" (rect 0 0 29 12)(font "Arial" ))
+		(text "EX1_O" (rect 182 123 211 135)(font "Arial" ))
+		(line (pt 232 128)(pt 216 128)(line_width 1))
+	)
+	(port
+		(pt 232 144)
+		(output)
+		(text "EN_IMM_O" (rect 0 0 51 12)(font "Arial" ))
+		(text "EN_IMM_O" (rect 160 139 211 151)(font "Arial" ))
+		(line (pt 232 144)(pt 216 144)(line_width 1))
+	)
+	(port
+		(pt 232 160)
+		(output)
+		(text "C1_O" (rect 0 0 23 12)(font "Arial" ))
+		(text "C1_O" (rect 188 155 211 167)(font "Arial" ))
+		(line (pt 232 160)(pt 216 160)(line_width 1))
+	)
+	(port
+		(pt 232 176)
+		(output)
+		(text "C2_O" (rect 0 0 24 12)(font "Arial" ))
+		(text "C2_O" (rect 187 171 211 183)(font "Arial" ))
+		(line (pt 232 176)(pt 216 176)(line_width 1))
+	)
+	(port
+		(pt 232 192)
+		(output)
+		(text "NE1_O" (rect 0 0 30 12)(font "Arial" ))
+		(text "NE1_O" (rect 181 187 211 199)(font "Arial" ))
+		(line (pt 232 192)(pt 216 192)(line_width 1))
+	)
+	(port
+		(pt 232 208)
+		(output)
+		(text "NE2_O" (rect 0 0 31 12)(font "Arial" ))
+		(text "NE2_O" (rect 180 203 211 215)(font "Arial" ))
+		(line (pt 232 208)(pt 216 208)(line_width 1))
+	)
+	(port
+		(pt 232 224)
+		(output)
+		(text "ALU_OP_O[3..0]" (rect 0 0 73 12)(font "Arial" ))
+		(text "ALU_OP_O[3..0]" (rect 138 219 211 231)(font "Arial" ))
+		(line (pt 232 224)(pt 216 224)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 216 288)(line_width 1))
+	)
+)
