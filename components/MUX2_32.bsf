@@ -1,0 +1,67 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 24 80 160 232)
+	(text "MUX2_32" (rect 32 8 78 20)(font "Arial" ))
+	(text "inst" (rect 8 136 25 148)(font "Arial" ))
+	(port
+		(pt 0 88)
+		(input)
+		(text "D1[31..0]" (rect 0 -16 46 -4)(font "Arial" ))
+		(text "D1[31..0]" (rect 61 83 96 93)(font "Arial" (font_size 6)))
+		(line (pt 0 88)(pt 56 88)(line_width 3))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "D0[31..0]" (rect 0 -16 46 -4)(font "Arial" ))
+		(text "D0[31..0]" (rect 61 51 96 61)(font "Arial" (font_size 6)))
+		(line (pt 0 56)(pt 56 56)(line_width 3))
+	)
+	(port
+		(pt 80 0)
+		(input)
+		(text "SEL" (rect 32 8 52 20)(font "Arial" ))
+		(text "SEL" (rect 80 24 90 40)(font "Arial" (font_size 6))(vertical))
+		(line (pt 80 0)(pt 80 40))
+	)
+	(port
+		(pt 136 72)
+		(output)
+		(text "Y[31..0]" (rect -32 -16 8 -4)(font "Arial" ))
+		(text "Y[31..0]" (rect 64 64 93 74)(font "Arial" (font_size 6)))
+		(line (pt 136 72)(pt 96 72)(line_width 3))
+	)
+	(drawing
+		(line (pt 56 88)(pt 56 56))
+		(line (pt 56 56)(pt 56 48))
+		(line (pt 56 48)(pt 56 40))
+		(line (pt 56 88)(pt 56 104))
+		(line (pt 96 64)(pt 96 80))
+		(line (pt 96 64)(pt 96 48))
+		(line (pt 96 80)(pt 96 96))
+		(line (pt 96 96)(pt 56 120))
+		(line (pt 56 120)(pt 56 104))
+		(line (pt 96 48)(pt 56 24))
+		(line (pt 56 40)(pt 56 24))
+	)
+)

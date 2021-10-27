@@ -1,0 +1,52 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 224 232)
+	(text "CLA_32_ADD_1" (rect 45 8 125 20)(font "Arial" ))
+	(text "inst" (rect 8 152 25 164)(font "Arial" ))
+	(port
+		(pt 0 56)
+		(input)
+		(text "A[31..0]" (rect 0 8 38 20)(font "Arial" ))
+		(text "A[31..0]" (rect 64 48 102 60)(font "Arial" ))
+		(line (pt 0 56)(pt 56 56)(line_width 3))
+	)
+	(port
+		(pt 160 80)
+		(output)
+		(text "S[31..0]" (rect 0 8 38 20)(font "Arial" ))
+		(text "S[31..0]" (rect 80 80 118 92)(font "Arial" ))
+		(line (pt 160 80)(pt 120 80)(line_width 3))
+	)
+	(drawing
+		(text "+4" (rect 2 104 16 118)(font "Arial" (font_size 8)))
+		(line (pt 56 32)(pt 56 72))
+		(line (pt 56 96)(pt 56 136))
+		(line (pt 120 80)(pt 120 56))
+		(line (pt 120 80)(pt 120 104))
+		(line (pt 120 56)(pt 56 32))
+		(line (pt 120 104)(pt 56 136))
+		(line (pt 56 96)(pt 80 80))
+		(line (pt 80 80)(pt 56 72))
+		(line (pt 56 112)(pt 24 112)(color 0 128 255)(line_width 3))
+	)
+)
