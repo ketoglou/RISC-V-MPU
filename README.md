@@ -6,7 +6,7 @@
 ![RV32E](https://img.shields.io/badge/RV32E-green)
 ![Zicr](https://img.shields.io/badge/Zicr-green)
 
-![RISCV Logo](/img/riscv_mpu.png)
+![RISCV Logo](/img/riscv_mpu.png =250x250)
 
 ## Project Description
 This project is a RISC-V ISA based microprocessor. The design contains the RV32E and Zicsr 
